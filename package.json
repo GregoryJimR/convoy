@@ -5,6 +5,10 @@
   "repository": "git@github.com:Jordan-Gilliam/convoy.git",
   "author": "",
   "license": "MIT",
+  "root": "dist/",
+  "routes": {
+    "/**": "index.html"
+  },
  
   "dependencies": {
     "body-parser": "^1.18.2",
@@ -14,12 +18,5 @@
     "google-maps-react": "^1.1.2",
     "material-ui": "^0.20.0",
     "react-geolocation": "^1.0.3",
-  },
-  "devDependencies": {
-    "nodemon": "^1.14.11",
-  }
-  "root": "dist/",
-  "routes": {
-    "/**": "index.html",
   },
 }
