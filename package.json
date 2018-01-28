@@ -6,11 +6,8 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "start": "concurrently \"nodemon server.js\" \"npm run client\"",
-    "client": "node src/scripts/start-client.js",
-    "server": "node server.js",
-    "build": "node src/scripts/build.js",
-    "installDeps": "yarn && cd client && yarn"
+    "start": "react-scripts start",
+    "server": "convoy/server.js"
   },
   "dependencies": {
     "body-parser": "^1.18.2",
@@ -18,6 +15,7 @@
     "create-react-app": "^1.5.1",
     "express": "^4.16.2",
     "google-maps-react": "^1.1.2",
+    "material-ui": "^0.20.0",
     "react-geolocation": "^1.0.3"
   },
   "devDependencies": {
