@@ -18,5 +18,5 @@
     "google-maps-react": "^1.1.2",
     "material-ui": "^0.20.0",
     "react-geolocation": "^1.0.3",
-  },
+  }
 }
