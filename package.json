@@ -6,7 +6,7 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "concurrently \"nodemon convoy/src/server.js\" \"npm run src\""
     "server": "convoy/server.js"
   },
   "dependencies": {
@@ -22,3 +22,4 @@
     "nodemon": "^1.14.11"
   }
 }
+/project/convoy/src/server.js
